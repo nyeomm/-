@@ -1,0 +1,88 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+}
+
+/*HEADER*/
+header {
+  text-align: center;
+  padding-top: 1px;
+}
+
+h1 {
+  font-size: 70px;
+  width: 500px;
+  margin: 30px auto 10px auto;
+  text-align: center;
+}
+
+header > p {
+  text-align: center;
+  margin-top: 3px;
+  color: rgb(161, 161, 161);
+}
+
+hr {
+  margin-top: 40px;
+  width: 40%;
+}
+
+/*SECTION*/
+section {
+  height: 500px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  margin: 30px auto 10px auto;
+}
+
+input {
+  text-align: center;
+  height: fit-content;
+  min-height: 30px;
+  width: 70%;
+  margin: 0 0 5px 0;
+  padding: 1px;
+  border: 0;
+
+  background-color: rgb(231, 231, 231);
+}
+
+button {
+  text-align: center;
+  height: 29px;
+  width: 50px;
+  margin: 5px 0 0 0;
+  border: 0px;
+  padding: 0px;
+
+  background-color: rgb(99, 99, 99);
+  color: rgb(231, 231, 231);
+}
+
+.container {
+  height: 350px;
+  width: 90%;
+  margin: 20px auto;
+  padding: 1px;
+  border: 20px;
+  border-color: rgb(249, 249, 249);
+  background-color: rgb(249, 249, 249);
+}
+
+div > p {
+  margin: 7px auto;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(231, 231, 231);
+}
+
+/*FOOTER*/
+footer {
+  text-align: center;
+
+  color: rgb(161, 161, 161);
+}
